@@ -1,0 +1,41 @@
+.homePageComp{
+    background-color: rgb(243, 244, 245);
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0rem;
+    padding: 4rem 0rem;
+    .container{
+        display: flex;
+        width: 1100px;
+      .left{
+        flex: 2;
+      }
+      .right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        h1{
+            font-size: 28px;
+            color: rgb(49, 49, 49);
+        }
+        p{
+            font-size: 15px;
+            color: rgb(49, 49, 49);
+        }
+        button{
+            padding: 1rem 2rem;
+            border: none;
+            color: white;
+            align-self: flex-start;
+            background-color: purple;
+            &:hover{
+                border: 2px solid purple;
+                background: transparent;
+                color: purple;
+            }
+        }
+        
+      }
+    }
+}

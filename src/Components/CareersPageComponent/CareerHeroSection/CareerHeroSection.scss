@@ -1,0 +1,53 @@
+.careerHeroSection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    background: transparent;
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 1100px;
+        .heroInfo{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 45%;
+        align-self: center;
+        align-items: center;
+        padding-top: 10%;
+        h1{
+            font-size: 65px;
+
+        }
+        p{
+            display: flex;
+            text-align: center;
+            line-height: 1.4;
+        }
+        .btns{
+            display: flex;
+            gap: 1rem;
+           
+            button{
+            background-color: rgb(38, 188, 247);
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 15px;
+            font-size: 12px;
+            transition: all 1s ease;
+            }
+            button:hover{
+                background: transparent;
+                border: 2px solid rgb(38, 188, 247);
+                color:rgb(38, 188, 247);
+            }
+            
+
+        }
+        }
+        
+
+    }
+}

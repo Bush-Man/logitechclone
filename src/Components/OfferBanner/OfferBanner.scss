@@ -1,0 +1,67 @@
+.offerBanner{
+    display: flex;
+    justify-content: center;
+    .container{
+
+    
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    padding: 9px 0px;
+     .input{
+        
+        display: flex;
+        
+        .brandTitle{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            cursor: pointer;
+        h1{
+            font-size: 14px;
+            color: rgb(194, 191, 191);
+        }
+        span{
+            font-size: 15px;
+            
+        }
+        }
+
+       
+        .selectOptions{
+               display: flex;
+               flex-direction: column;
+               padding-left: 10px;
+               position: absolute;
+               top: 30px;
+               left: 3.5rem;
+               padding: 0px 15px;
+               width: 80px;
+               justify-content: flex-start;
+               background-color: white;
+            & option{
+               width: 100%;
+               border-bottom: 1px solid rgb(233, 230, 230);
+               padding: 10px 0px;
+               display: flex;
+               
+               align-items: center;
+               font-size: 13px;
+               
+              
+           
+            }
+        }
+    }
+    & .offerText{
+        font-size: 12px;
+        
+    }
+    & .countries{
+        font-size: 8px;
+    }
+}
+}

@@ -1,0 +1,66 @@
+.bodySecOne{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0rem;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 1100px;
+        .contTop{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap:1rem;
+            img{
+                width: 20%;
+                object-fit: contain;
+                
+            }
+        }
+        .contBottom{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            gap: 1rem;
+        }
+        .item{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+           h1{
+            font-size: 17px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            & span{
+                    background-color:rgb(38, 188, 247);
+                    width: 10px;
+                    height: 10px;
+
+                }
+           }
+           P{
+            padding: 0px 20px;
+            font-size: 14px;
+            line-height: 1.3;
+           }
+           .social{
+            display: flex;
+            padding: 1rem 5rem;
+            justify-content: space-between;
+           }
+        }
+        .itemLists{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding: 0rem 0rem 3rem 4rem;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.heroSection{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 244, 245);
+    height: 70vh;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 1100px;
+    }
+}

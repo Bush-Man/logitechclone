@@ -1,0 +1,17 @@
+.sliderComp{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+    .container{
+        display: flex;
+        
+        width: 930px;
+        .slider{
+            display: flex;
+            
+            width: 100%;
+            
+        }
+    }
+    
+}

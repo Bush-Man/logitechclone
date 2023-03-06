@@ -1,0 +1,45 @@
+.heroInfo{
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+    .leftSide{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        h1{
+            font-size: 52px;
+            color: rgb(66, 66, 66);
+
+        }
+        p{
+            font-size: 22px;
+            color:rgb(66, 66, 66);
+
+        }
+        .heroBtns{
+         display: flex;
+         gap: 1.2rem;
+         width: 100%;
+         overflow: hidden;
+          button{
+                padding: 13px 28px;
+                font-weight: bold;
+                font-size: 12px;
+                background-color: rgb(66, 66, 66);
+                color: white;
+                border: none;
+                cursor: pointer;
+                
+            }
+            button:nth-of-type(1):hover{
+                    border: 2px solid rgb(66,66,66);
+                    background: transparent;
+                }
+        }
+        button:nth-of-type(2):hover{
+                    border: 2px solid rgb(66,66,66);
+                    background: transparent;
+                }
+    }
+}

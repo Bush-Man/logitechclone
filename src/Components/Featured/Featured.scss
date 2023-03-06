@@ -1,0 +1,49 @@
+.featured{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    .container{
+        display: flex;
+        width: 1100px;
+        gap: 1rem ;  
+        flex-wrap: wrap;
+        .item{
+            width: 350px;
+            img{
+               width: 100%;
+            }
+            .itemBody{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-top: 10px;
+                h1{
+                    font-size: 20px;
+
+                }
+                h1:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+                p{
+                    color: rgb(75, 74, 74);
+                }
+                .itemLink{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    h1{
+                        font-size: 12px;
+                        color: rgb(46, 45, 45);
+                        font-weight: bold;
+                    }
+                    h1:hover{
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+      }
+
+}
